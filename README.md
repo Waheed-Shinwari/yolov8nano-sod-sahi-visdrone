@@ -53,7 +53,8 @@ This project is designed to run out-of-the-box on Google Colab using a T4 GPU.
 2. Dataset Preparation  
    - Download VisDrone2019-DET-train.zip and VisDrone2019-DET-val.zip.  
    - Upload these ZIP files to the root of your Google Drive.  
-   - Run the "Mount Drive & Extract Dataset" cell in the notebook. It will automatically create the correct directory structure (`images/` and `labels/`).  
+   - Run the "Mount Drive & Extract Dataset" cell in the notebook. It will automatically create the correct directory structure (`images/` and `labels/`).
+   - download the trained model weights file **"best.pt"** from the repo and make sure to change the model path in the 6th cell of the notebook i.e **MODEL_PATH = "/content/drive/MyDrive/Yolov8_VisDrone_Trained/train100/weights/best.pt"**
 
 3. Training (Optional)  
    If you wish to reproduce the fine-tuned weights, run the training cell.  
