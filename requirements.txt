@@ -1,0 +1,8 @@
+ultralytics==8.4.46
+sahi==0.11.36
+ensemble-boxes==1.0.9
+pycocotools==2.0.11
+opencv-python
+pandas
+seaborn
+matplotlib
