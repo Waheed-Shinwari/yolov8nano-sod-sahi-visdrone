@@ -21,6 +21,7 @@ Repository Structure
 ├── visdrone.yaml                                             Dataset configuration
 ├── ablation_master_results.csv                               Ablation study metrics
 ├── per_class_metrics_comparison.csv                          Per-class AP breakdown
+├── best.pt                                                   weights file for our fine-tuned protocol
 ├── results.csv                                               Baseline vs SAHI summary
 ├── args.yaml                                                 Training hyperparameters
 ├── LICENSE                                                   Apache License
@@ -61,7 +62,7 @@ This project is designed to run out-of-the-box on Google Colab using a T4 GPU.
    - Image Size: 640  
    - Batch Size: 16  
 
-   Note: The notebook is pre-configured to evaluate using the fine-tuned weights located in the `/content/drive/MyDrive/Yolov8_VisDrone_Trained/` path.  
+    
 
 4. Inference & Ablation Study  
    Run the main inference loop. This cell iterates through all ablation configurations (Tile sizes: 480/640/800, Overlaps, Post-processing methods) and saves the metrics to CSV files.  
@@ -93,7 +94,7 @@ If you use this code for your research, please cite the following works:
 
 License
 -------
-This project is licensed under the MIT License. See the LICENSE file for details.  
+This project is licensed under the Apache License. See the LICENSE file for details.  
 
 Developed for: **National University of Sciences & Technology (NUST)'s Machine Learning Course Project**  
 Contact:  https://github.com/Waheed-Shinwari
