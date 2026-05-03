@@ -17,6 +17,7 @@ Repository Structure
 --------------------
 ```
 ├── ML_Proj_Finetuned_Yolo_ablation_per_class_analysis.ipynb  Main Colab Notebook
+├── plots_and_visuals                                         
 ├── visdrone.yaml                                             Dataset configuration
 ├── ablation_master_results.csv                               Ablation study metrics
 ├── per_class_metrics_comparison.csv                          Per-class AP breakdown
